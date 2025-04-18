@@ -1,0 +1,45 @@
+{
+  "environments": {
+    "Salesforce_Lightening": {
+      "E2ESandBox": {
+        "userId": "automation_test_user@test.com.full",
+        "emailUserName": "Power.QAAutomation"
+      },
+      "QASandBox": {
+        "userId": "automation_test_user@test.com.qa",
+        "emailUserName": "Power.QAAutomation"
+      }
+    },
+    "Salesforce_Lightening_API": {
+      "E2ESandBox": {
+        "SFAPIUSERNAME": "mule.integration@joinmosaic.com.full",
+        "PARTNERACCOUNTCLIENTID": "ebf282107ffd4fdbbf92e086ee4f2fe9"
+      },
+      "QASandBox": {
+        "SFAPIUSERNAME": "mule.integration@test.com.qa",
+        "PARTNERACCOUNTCLIENTID": "ebf282107ffd4fdbbf92e086ee4syasy9"
+      }
+    },
+    "Magnes": {
+      "E2ESandBox": {
+        "homePage": "https://e2e.partner.test.com/"
+      },
+      "QASandBox": {
+        "homePage": "https://qa.partner.test.com/"
+      }
+    }
+  },
+  "ExecutionEnvironment": {
+    "EnvironmentDetails": {
+      "env": "E2ESandBox",
+      "OS": "",
+      "Browser": "chrome",
+      "Headless": true
+    }
+  },
+  "Waits": {
+    "ExplicitWait": 120,
+    "Shortwait": 60,
+    "longwait":80
+  }
+}
